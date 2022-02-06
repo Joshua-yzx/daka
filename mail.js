@@ -12,7 +12,7 @@ const nodemailer = require('nodemailer')
 const config = {
   user: 'ux34@qq.com', // 邮箱帐号
   pass: 'ctcpzlmlijctbaaj', // 邮箱授权码
-  from: '"Daka" <ux34@qq.com>' // 发件人 昵称与邮箱
+  from: '"微哨" <ux34@qq.com>' // 发件人 昵称与邮箱
 }
 
 let transporter = nodemailer.createTransport({
